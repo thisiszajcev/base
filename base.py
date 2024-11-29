@@ -49,7 +49,7 @@ class MainWindow(QMainWindow):
         
         # Текстовое поле и кнопка для генерации запроса на удаление
         self.delete_query_text = QLineEdit()
-        self.delete_query_text.setPlaceholderText("Здесь будет запрос на удаление")
+        self.delete_query_text.setPlaceholderText("Здесь будет запрос на удалениеasca")
         generate_query_button = QPushButton("Генерация запроса на удаление")
         generate_query_button.clicked.connect(self.generate_delete_query)
 
